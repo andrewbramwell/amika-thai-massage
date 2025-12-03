@@ -5,17 +5,17 @@ import { getImage } from "astro:assets";
 import client from "@data/client.json";
 
 // Import images
-import massage1 from "@assets/images/massages/massage1.jpg";
-import massage2 from "@assets/images/massages/massage2.jpg";
-import massage3 from "@assets/images/massages/massage3.jpg";
+import thai1 from "@assets/images/massages/thai1.jpg";
+import thai2 from "@assets/images/massages/thai2.jpg";
+import thai3 from "@assets/images/massages/thai3.jpg";
 
 // Optimize images for different sizes
-const optimizedMassage1Tall = await getImage({ src: massage1, format: 'webp', width: 349 });
-const optimizedMassage1TallMobile = await getImage({ src: massage1, format: 'webp', width: 600 });
-const optimizedMassage2Top = await getImage({ src: massage2, format: 'webp', width: 281 });
-const optimizedMassage2TopMobile = await getImage({ src: massage2, format: 'webp', width: 600 });
-const optimizedMassage3Bottom = await getImage({ src: massage3, format: 'webp', width: 281 });
-const optimizedMassage3BottomMobile = await getImage({ src: massage3, format: 'webp', width: 600 });
+const optimizedthai1Tall = await getImage({ src: thai1, format: 'webp', width: 349 });
+const optimizedthai1TallMobile = await getImage({ src: thai1, format: 'webp', width: 600 });
+const optimizedthai2Top = await getImage({ src: thai2, format: 'webp', width: 281 });
+const optimizedthai2TopMobile = await getImage({ src: thai2, format: 'webp', width: 600 });
+const optimizedthai3Bottom = await getImage({ src: thai3, format: 'webp', width: 281 });
+const optimizedthai3BottomMobile = await getImage({ src: thai3, format: 'webp', width: 600 });
 ---
 
 <!-- ============================================ -->
@@ -28,26 +28,26 @@ const optimizedMassage3BottomMobile = await getImage({ src: massage3, format: 'w
             <!--Long Left Image-->
             <picture class="cs-picture cs-picture1">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset={optimizedMassage1TallMobile.src} type="image/webp" />
+                <source media="(max-width: 600px)" srcset={optimizedthai1TallMobile.src} type="image/webp" />
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset={optimizedMassage1Tall.src} type="image/webp" />
-                <img loading="lazy" decoding="async" src={massage1.src} alt={t("home:featured2.imageAlt")} width="349" height="590" />
+                <source media="(min-width: 601px)" srcset={optimizedthai1Tall.src} type="image/webp" />
+                <img loading="lazy" decoding="async" src={thai1.src} alt={t("home:featured2.imageAlt")} width="349" height="590" />
             </picture>
             <!--Top right image-->
             <picture class="cs-picture cs-picture2">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset={optimizedMassage2TopMobile.src} type="image/webp" />
+                <source media="(max-width: 600px)" srcset={optimizedthai2TopMobile.src} type="image/webp" />
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset={optimizedMassage2Top.src} type="image/webp" />
-                <img loading="lazy" decoding="async" src={massage2.src} alt={t("home:featured2.imageAlt")} width="281" height="387" />
+                <source media="(min-width: 601px)" srcset={optimizedthai2Top.src} type="image/webp" />
+                <img loading="lazy" decoding="async" src={thai2.src} alt={t("home:featured2.imageAlt")} width="281" height="387" />
             </picture>
             <!--Bottom right image-->
             <picture class="cs-picture cs-picture3">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset={optimizedMassage3BottomMobile.src} type="image/webp" />
+                <source media="(max-width: 600px)" srcset={optimizedthai3BottomMobile.src} type="image/webp" />
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset={optimizedMassage3Bottom.src} type="image/webp" />
-                <img loading="lazy" decoding="async" src={massage3.src} alt={t("home:featured2.imageAlt")} width="281" height="280" />
+                <source media="(min-width: 601px)" srcset={optimizedthai3Bottom.src} type="image/webp" />
+                <img loading="lazy" decoding="async" src={thai3.src} alt={t("home:featured2.imageAlt")} width="281" height="280" />
             </picture>
             <!--Seal-->
             <img class="cs-seal" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/seal.svg" alt="seal" width="150" height="150" />

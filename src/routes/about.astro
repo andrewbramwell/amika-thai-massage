@@ -111,49 +111,11 @@ const description = t("about:landing.description");
                 </p>
                 <p class="cs-text">
                     {t("about:section.paragraph4")}
-                </p>
-                <div id="quote-827">
-                    <span class="cs-quote-text">
-                        {t("about:section.quoteText")}
-                    </span>
-                    <span class="cs-name">{t("about:section.quoteName")}</span>
-                    <span class="cs-job">{t("about:section.quoteJob")}</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="quote" width="136" height="77" />
-                </div>                     
+                </p>                 
             </div>
         </div>
     </section>
 
-    <!-- ============================================ -->
-    <!--                Meet The Team                 -->
-    <!-- ============================================ -->
-
-    <section id="meet-team-1677">
-        <div class="cs-container">
-            <div class="cs-content">
-                <span class="cs-topper">{t("about:team.topper")}</span>
-                <h2 class="cs-title">{t("about:team.title")}</h2>
-            </div>
-            <ul class="cs-card-group">
-                {teamMembers.map((member) => (
-                    <li class="cs-item">
-                        <picture class="cs-picture">
-                            <!--Mobile Image-->
-                            <source media="(max-width: 600px)" srcset={member.imageMobile} type="image/webp" />
-                            <!--Tablet and above Image-->
-                            <source media="(min-width: 601px)" srcset={member.imageDesktop} type="image/webp" />
-                            <img loading="lazy" decoding="async" src={member.imageFallback} alt={member.name} width="290" height="380" />
-                        </picture>
-                        </a>
-                        <div class="cs-info">
-                            <span class="cs-name">{member.name}</span>
-                            <span class="cs-job">{member.job}</span>
-                        </div>
-                    </li>
-                ))}
-            </ul>
-        </div>
-    </section>
 </BaseLayout>
 
 <style lang="less">

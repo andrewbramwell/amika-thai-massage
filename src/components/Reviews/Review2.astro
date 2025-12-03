@@ -32,7 +32,7 @@ const reviews = [
         <ul class="cs-card-group">
             {reviews.map((review) => (
                 <li class="cs-item">
-                    <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/quote-blue.svg" decoding="async" alt="quote icon" width="40" height="33" />
+                    <img class="cs-quote" aria-hidden="true" src="/assets/svgs/quote-gold.svg" decoding="async" alt="quote icon" width="40" height="33" />
                     <p class="cs-review">
                         {review.text}
                     </p>
@@ -40,7 +40,7 @@ const reviews = [
                 </li>
             ))}
         </ul>
-        <a href={client.leaveReview}  class="cs-button-solid">{t("home:reviews.cta")}</a>
+        <a href={client.leaveReview} target="_blank" rel="noopener noreferrer" class="cs-button-solid">{t("home:reviews.cta")}</a>
     </div>
 </section>
 

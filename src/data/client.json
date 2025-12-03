@@ -1,28 +1,28 @@
 {
-	"name": "Your Spa Name Here",
+	"name": "Amika Thai Massage & Wellness",
 	"businessType": "Thai Massage & Spa",
-	"servicesTemplate": "tiles",
-	"email": "info@yourspa.com",
-	"phoneForTel": "+44-20-1234-5678",
-	"phoneFormatted": "+44 20 1234 5678",
-	"whatsapp": "+447123456789",
+	"email": "amikathaimassage@gmail.com",
+	"phoneForTel": "+447785923919",
+	"phoneFormatted": "07785 923919",
+	"whatsapp": "",
 	"address": {
-		"lineOne": "123 High Street",
-		"lineTwo": "Soho",
-		"city": "London",
-		"postcode": "SW1A 1AA",
+		"lineOne": "20 Kingsbrook Rd",
+		"lineTwo": "",
+		"city": "Bedford",
+		"postcode": "MK42 0BH",
 		"country": "United Kingdom",
-		"mapLink": "https://goo.gl/maps/YOUR_MAP_LINK"
+		"mapLink": "https://maps.app.goo.gl/qutaRSh1hPMzZvZr7"
 		
 	},
 	"social": {
-		"facebook": "https://facebook.com/yourspa",
-		"instagram": "https://instagram.com/yourspa",
+		"facebook": "",
+		"instagram": "",
 		"google": "https://g.page/yourspa"
 	},
-	"hours": "Mon-Sat: 10:00-20:00, Sun: 10:00-18:00",
+	"hours": "Mon-Fri: 10:00-20:00, Sat-Sun: 11:00-18:00",
 	"domain": "www.yourspa.com",
-	"bookingUrl": "https://book.yourspa.com",
-	"giftVoucherUrl": "https://vouchers.yourspa.com",
-	"leaveReview": "https://g.page/yourspa/review"
+	"bookingUrl": "https://amikathaimassageandwellness.setmore.com/",
+	"giftVoucherUrl": "",
+	"leaveReview": "https://g.page/r/CUfP4FDLKxIuEBM/review"
 }
+

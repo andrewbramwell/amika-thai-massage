@@ -35,7 +35,7 @@ const { title, image } = Astro.props
                 content: "";
                 width: 100%;
                 height: 100%;
-                background: #000;
+                background: #FFF3EC;
                 opacity: 0.7;
                 display: block;
                 position: absolute;
@@ -70,7 +70,7 @@ const { title, image } = Astro.props
                 margin: 0 auto;
                 margin-top: (70/16rem);
                 margin-bottom: (30/16rem);
-                color: #fff;
+                color: var(--headerColor);
                 position: relative;
             }
 
@@ -94,6 +94,30 @@ const { title, image } = Astro.props
             padding-top: (180/16rem);
             background-attachment: fixed;
             padding-block-end: (100/16rem);
+        }
+    }
+
+    /* Dark Mode */
+    @media only screen and (min-width: 0rem) {
+        body.dark-mode {
+            #int-hero {
+                /* REMOVE: opacity: .2; */
+                /* REMOVE: background-color: var(--dark); */
+                /* REMOVE: z-index: -1; */
+
+                &:before {
+                    background: var(--dark);  /* ADD THIS - change overlay color */
+                    opacity: 0.8;  /* ADD THIS - adjust overlay opacity */
+                }
+
+                h1 {
+                    color: var(--bodyTextColorWhite);
+                }
+
+                p {
+                    color: var(--bodyTextColorWhite);  /* ADD THIS - make paragraph white too */
+                }
+            }
         }
     }
 </style>

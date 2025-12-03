@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 // MULTILINGUAL CONFIGURATION
 // Set to true for multilingual sites, false for single language
 // ========================================
-const MULTILINGUAL = true; // false for single language websites!
+const MULTILINGUAL = false; // false for single language websites!
 
 // Language configuration
 const DEFAULT_LOCALE = "en";

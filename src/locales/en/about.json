@@ -1,38 +1,15 @@
 {
   "landing": {
     "title": "About Us",
-    "description": "Learn about our story, mission, and the team behind [Your Business]. Discover what makes us unique and why clients trust us for their [service] needs."
+    "description": "Learn about Amy and Amika Thai Massage & Wellness Bedford. Fully qualified therapist from Buriram, Thailand with 16 years in the UK, combining authentic Thai massage traditions with professional therapeutic care."
   },
   "section": {
-    "topper": "About Section Label ",
-    "title": "About Page  ",
-    "paragraph1": "First paragraph introducing your business story, mission, and values. Explain what drives you and what makes your approach unique. Connect emotionally with your audience.",
-    "paragraph2": "Second paragraph elaborating on your expertise, experience, or philosophy. Share what sets you apart and why clients should trust you with their wellbeing.",
-    "paragraph3": "Third paragraph elaborating on your expertise, experience, or philosophy. Share what sets you apart and why clients should trust you with their wellbeing.",
-    "paragraph4": "Third paragraph elaborating on your expertise, experience, or philosophy. Share what sets you apart and why clients should trust you with their wellbeing.",
-    "quoteText": "Inspirational or meaningful quote that captures your business philosophy, mission, or approach to client care.",
-    "quoteName": "Quote Author Name ",
-    "quoteJob": "Quote Author Title ",
-    "imageAlt": "Descriptive alt text for about section image"
-  },
-  "team": {
-    "topper": "Team Section Label (e.g., Our Team, Meet The Team)",
-    "title": "Our Expert Team Members",
-    "member1": {
-      "name": "Team Member 1 Name",
-      "job": "Role/Title "
-    },
-    "member2": {
-      "name": "Team Member 2 Name",
-      "job": "Role/Title"
-    },
-    "member3": {
-      "name": "Team Member 3 Name",
-      "job": "Role/Title"
-    },
-    "member4": {
-      "name": "Team Member 4 Name",
-      "job": "Role/Title"
-    }
+    "topper": "About Amika Thai Massage & Wellness ",
+    "title": "Welcome to Professional Therapeutic Care in Bedford  ",
+    "paragraph1": "I'm Amy, a fully qualified massage therapist from Buriram, Thailand, and I've made Bedford my home for the past 16 years. After working as a professional therapist in Bedford for over two years, I opened Amika Thai Massage & Wellness in October 2025 to create a dedicated space where authentic Thai healing traditions meet modern clinical standards.",
+    "paragraph2": "My approach combines the ancient wisdom of traditional Thai massage with evidence-based therapeutic techniques. As a sole practitioner, I provide consistent, personalised care where I can build trusting relationships with clients and track their progress over time. My home studio is set up as a professional treatment space where I can provide safe, effective massage therapy in a clean, comfortable environment.",
+    "paragraph3": "I hold VTCT Level 3 certification in Thai Massage, along with specialized qualifications in Deep Tissue, Pregnancy Massage, Lymphatic Drainage, Aromatherapy, and Hot Stone techniques. But qualifications are just the foundation—what drives me is seeing clients find genuine relief from pain, tension, and stress. I'm committed to changing lives through the power of therapeutic touch, one treatment at a time.",
+    "paragraph4": "This is more than a business to me. It's my calling, my passion, and my contribution to Bedford's wellbeing. I invite you to experience the difference that professional, compassionate, evidence-based massage therapy can make in your life.",
+    "imageAlt": "owner image"
   }
 }

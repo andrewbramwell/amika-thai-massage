@@ -23,7 +23,7 @@ const optimizedCtaMobile = await getImage({ src: ctaImage, format: 'webp', width
             <p class="cs-text">
                 {t("ctaComponent.text")}
             </p>
-            <a href={client.bookingUrl} class="cs-button-solid">{t("ctaComponent.button")}</a>
+            <a href={client.bookingUrl} target="_blank" rel="noopener noreferrer" class="cs-button-solid">{t("ctaComponent.button")}</a>
         </div>
     </div>
     <!-- Background Image-->
@@ -67,13 +67,17 @@ const optimizedCtaMobile = await getImage({ src: ctaImage, format: 'webp', width
             align-items: center;
         }
 
+        .cs-topper {
+            color: var(--headerColor);
+        }
+
         .cs-title {
-            color: var(--bodyTextColorWhite);
+            color: var(--headerColor);
         }
 
         .cs-text {
             margin-bottom: (16/16rem);
-            color: var(--bodyTextColorWhite);
+            color: var(--headerColor);
             opacity: 0.8;
             &:last-of-type {
                 margin-bottom: (32/16rem);
@@ -97,8 +101,8 @@ const optimizedCtaMobile = await getImage({ src: ctaImage, format: 'webp', width
                 display: block;
                 height: 100%;
                 width: 100%;
-                background: #000;
-                opacity: 0.8;
+                background: #FFF3EC;
+                opacity: 0.7;
                 top: 0;
                 left: 0;
                 z-index: 1;
@@ -111,6 +115,31 @@ const optimizedCtaMobile = await getImage({ src: ctaImage, format: 'webp', width
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
+            }
+        }
+    }
+}
+
+/* Dark Mode - 768px */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #cta-51 {
+
+            .cs-picture {
+                opacity: .2;
+                background-color: var(--dark);
+            }
+
+            .cs-topper {
+            color: var(--bodyTextColorWhite);
+            }
+
+            .cs-title {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text {
+                color: var(--bodyTextColorWhite);
             }
         }
     }

@@ -19,60 +19,54 @@
     }
   },
 	"layout": {
-		"title": "Pixel Perfect Websites",
-		"description": "Meta description for the page"
+		"title": "Amika Thai Massage & Wellnes",
+		"description": "Amika Thai Massage & Wellness Bedford. Professional therapeutic massage by VTCT certified Thai therapist Amy. Authentic techniques for pain relief & wellness."
 	},
 	"hero": {
-		"topper": "Your Business Category | Your Location",
-		"title": "Primary Service Keyword + Location + Unique Benefit",
-		"text": "Brief compelling description highlighting what makes you different and why customers should choose you. Include a secondary benefit or service feature.",
-		"cta": "Main CTA"
+		"topper": "Amika Thai Massage & Wellness",
+		"title": "Authentic Thai Massage in Bedford by a Qualified Thai Therapist",
+		"text": "Trust your health to a certified professional. I bring traditional Thai healing techniques from Buriram to Bedford, combining authentic methods with modern clinical standards. Every treatment is personalized, professional, and focused on your therapeutic goals.",
+		"cta": "Schedule Your Session"
 	},
 	"services": {
-		"topper": "Our Services Category (e.g., Thai Massage, Spa Treatments)",
-		"title": "SEO Optimized Services Heading - Include Keywords",
-		"description": "Compelling description of your services offering. Highlight what makes your treatments unique and the benefits clients will experience. Keep it 2-3 sentences for optimal engagement.",
+		"topper": "Our Therapeutic Treatments",
+		"title": "Expert Thai Massage Treatments for Pain Relief and Wellness",
+		"description": "Whether you're dealing with chronic pain, sports injuries, stress, or simply need to maintain your wellbeing, I offer a range of evidence-based massage therapies designed to address your concerns. Each session combines authentic Thai techniques with modern therapeutic approaches, delivered by a fully qualified practitioner who puts your health first.",
 		"service1": {
-		"name": "First Service Name",
-		"description": "Brief compelling description highlighting key benefits and unique aspects of this service",
-		"link": "/services/service-1"
+		"name": "Aromatherapy Massage",
+		"description": "A therapeutic treatment combining gentle massage with carefully selected essential oils to promote deep relaxation and enhance wellbeing.",
+		"link": "/services"
 		},
 		"service2": {
-		"name": "Second Service Name",
-		"description": "Brief compelling description highlighting key benefits and unique aspects of this service",
-		"link": "/services/service-2"
+		"name": "Back, Neck & Shoulder Massage",
+		"description": "A targeted treatment focusing on areas affected by stress and posture. Addresses muscle tension and stiffness in the upper body.",
+		"link": "/services"
 		},
 		"service3": {
-		"name": "Third Service Name",
-		"description": "Brief compelling description highlighting key benefits and unique aspects of this service",
-		"link": "/services/service-3"
-		},
-		"service4": {
-		"name": "Fourth Service Name ",
-		"description": "Brief compelling description highlighting key benefits and unique aspects of this service",
-		"link": "/services/service-4"
+		"name": "Hot Stone Massage",
+		"description": "A luxurious treatment using heated volcanic stones. The warmth penetrates muscles, promoting relaxation and improved circulation.",
+		"link": "/services"
 		},
 		"linkText": "Learn More",
-		"cta": "View All Services Button Text",
+		"cta": "All Massages",
 		"ctaLink": "/services"
 	},
 	"whyUs": {
-		"topper": "Why Choose Us Section Label",
-		"title": "Why Choose Your Thai Massage",
-		"description": "Compelling description explaining what sets your business apart from competitors. Focus on expertise, quality, experience, and customer satisfaction. Keep it 2-3 sentences.",
+		"topper": "Why Us",
+		"title": "Why Choose Amika Thai Massage & Wellness",
 		"reason1": {
-		"title": "First Reason Title",
-		"description": "Brief explanation of this benefit and how it helps customers achieve their goals or solve their problems"
+			"title": "Fully Qualified & Certified",
+			"description": "VTCT Level 3 certified with additional qualifications in Deep Tissue, Pregnancy Massage, Lymphatic Drainage, Aromatherapy, and Hot Stone techniques. You're in safe, professional hands."
 		},
 		"reason2": {
-		"title": "Second Reason Title",
-		"description": "Brief explanation of this benefit and how it helps customers achieve their goals or solve their problems"
+			"title": "Consistent Personal Care",
+			"description": "As a sole practitioner, you'll always receive treatment from me—building trust, tracking your progress, and ensuring the same high standard of therapeutic care every visit."
 		},
 		"reason3": {
-		"title": "Third Reason Title",
-		"description": "Brief explanation of this benefit and how it helps customers achieve their goals or solve their problems"
+			"title": "Authentic Thai Expertise",
+			"description": "Trained in traditional Thai massage techniques from Thailand, combined with UK professional standards and modern clinical approaches for optimal therapeutic outcomes."
 		},
-		"testimonial": "A testimonial from a customer or a quote from the business owner"
+		"testimonial": "I'm passionate about changing lives through therapeutic touch. Every client deserves professional care that delivers real results—that's my commitment to you."
 	},
 	"about": {
 		"topper": "About Section ",
@@ -83,63 +77,48 @@
 		"imageAlt": "Descriptive alt text for about image"
 	},
 	"featured1": {
-		"topper": "Featured Section Label",
-		"title": "SEO Optimized Featured Heading ",
-		"paragraph1": "First paragraph describing your featured service, treatment, or specialty. Explain what makes it unique and the benefits clients will experience.",
-		"paragraph2": "Second paragraph with additional details, results, or reasons why clients should try this featured offering. Build excitement and credibility.",
-		"cta": "Learn More",
-		"imageAlt": "Descriptive alt text for featured images"
+		"topper": "Signature Service",
+		"title": "Professional Thai Massage Therapy in Bedford",
+		"paragraph1": "Thai massage is a powerful therapeutic treatment for chronic pain, restricted mobility, and muscular tension. Using a combination of deep pressure, stretching, and joint mobilisation, I work systematically through your body to release tight muscles, improve circulation, and increase range of motion. This isn't a gentle spa treatment—it's clinical bodywork that delivers measurable results for clients dealing with health concerns.",
+		"paragraph2": "With over two years of professional experience treating diverse conditions in Bedford, I've seen Thai massage transform how clients move and feel. From office workers with neck and shoulder tension to athletes managing sports injuries, this versatile technique can be adapted to address your specific concerns.",
+		"cta": "Thai Massage",
+		"imageAlt": "Therapeutic Thai massage session at Amika Thai Massage & Wellness Bedford"
 	},
 	"featured2": {
-		"topper": "Second Featured Section Label",
-		"title": "SEO Optimized Second Featured Heading",
-		"paragraph1": "First paragraph for your second featured section. Highlight a different service or treatment specialty.",
-		"paragraph2": "Second paragraph with additional details about this featured offering.",
-		"cta": "Learn More",
-		"imageAlt": "Descriptive alt text for second featured images"
+		"topper": "Specialized Treatment",
+		"title": "Professional Deep Tissue Massage in Bedford",
+		"paragraph1": "Deep tissue massage targets the deeper layers of muscle and connective tissue to address chronic pain, persistent tension, and restricted movement. Using slow, deliberate strokes and focused pressure, I work through adhesions and knots that cause discomfort and limit your mobility. This specialized technique is particularly effective for chronic lower back pain, frozen shoulder, repetitive strain injuries, and long-standing muscular problems that haven't responded to lighter massage approaches.",
+		"paragraph2": "With professional certification in deep tissue techniques, I understand how to apply appropriate pressure safely and effectively—working with your body's tolerance whilst achieving therapeutic results. This isn't about causing pain; it's about accessing deeper muscle layers to release tension and restore function. Many clients find significant relief after just one session, with continued improvement through regular treatment.",
+		"cta": "Deep Tissue Massage",
+		"imageAlt": "Deep tissue massage therapy for chronic pain relief at Amika Bedford"
 	},
 	"reviews": {
-		"topper": "Reviews Section Label",
-		"title": "SEO Optimized Reviews Heading - Build Trust",
-		"description": "Brief introduction explaining the value of customer feedback and your commitment to client satisfaction. Keep it 1-2 sentences.",
+		"topper": "Testimonials",
+		"title": "Reviews for Amika Thai Massage & Wellness Bedford",
+		"description": "Hear directly from clients who've experienced professional therapeutic massage at Amika. Your feedback helps me continue providing the highest standard of care.",
 		"review1": {
-		"text": "First client testimonial. Include specific benefits they experienced, results achieved, or what they appreciated most about your service. Keep authentic and relatable.",
-		"name": "Client Name or Initials"
+		"text": "Amy was incredible. I go for massages regularly however this was the best massage I've ever had. She was very professional, maintained my dignity whilst helping my body to relax. I will definitely be visiting her again. Thank you Amy!",
+		"name": "Nikita"
 		},
 		"review2": {
-		"text": "Second client testimonial. Highlight different aspects of your service - quality, professionalism, results, or experience. Vary the focus from review1.",
-		"name": "Client Name or Initials"
-		},
-		"review3": {
-		"text": "Second client testimonial. Highlight different aspects of your service - quality, professionalism, results, or experience. Vary the focus from review1.",
-		"name": "Client Name or Initials"
+		"text": "I came in with tennis elbow and sprained ankle and came out like new!! Fantastic massage very proffessional and skillful. I will be back as a regular! Really provided great relief!!",
+		"name": "Leia Stango"
 		},
 		"cta": "Leave A Review"
 	},
 	"faq": {
-		"topper": "FAQ Section Label (e.g., FAQ's, Common Questions)",
-		"title": "Frequently Asked Questions",
-		"imageAlt": "Descriptive alt text for FAQ image",
-		"question1": "First common question about your services (e.g., What should I expect during my first visit?)",
-		"answer1": "Clear, helpful answer addressing the question. Provide specific details that help potential clients understand what to expect.",
-		"question2": "Second common question (e.g., How long does a typical session last?)",
-		"answer2": "Detailed answer providing useful information. Be specific about timing, process, or other relevant details.",
-		"question3": "Third common question (e.g., Do I need to book in advance?)",
-		"answer3": "Informative answer that helps clients plan and prepare. Include any important details or recommendations.",
-		"question4": "Fourth common question (e.g., What should I wear for my appointment?)",
-		"answer4": "Practical answer with clear guidance. Help clients feel prepared and comfortable.",
-		"question5": "Fifth common question (e.g., What are your cancellation policies?)",
-		"answer5": "Professional answer explaining your policies clearly. Be transparent and helpful."
-	},
-	"extra": {
-		"topper": "SEO Ranking",
-		"title": "Talk about a main service keyword",
-		"p1": "Our main service In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
-		"p2": "Research shows that In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per."
-	},
-	"portfolio": {
-		"topper": "Our Portfolio",
-		"title": "Et orci volutpat, back up generator installations",
-		"cta": "View Our Products"
+		"topper": "FAQs",
+		"title": "Common Questions Regarding Amika Thai Massage & Wellness",
+		"imageAlt": "Massage oils, towels and hot stones",
+		"question1": "Do I need to book in advance?",
+		"answer1": "Yes, I operate by appointment only to ensure you receive my full attention and the time slot that works best for you. Please book in advance through my online booking system or by phone. I recommend booking at least a few days ahead, especially for weekend appointments, though I'll always do my best to accommodate urgent needs.",
+		"question2": "What is your cancellation policy?",
+		"answer2": "I require 24 hours' notice for cancellations or rescheduling. This allows me to offer your appointment time to other clients who need treatment. Cancellations with less than 24 hours' notice may incur a cancellation fee. I understand emergencies happen and will work with you on a case-by-case basis.",
+		"question3": "How long does a typical treatment last?",
+		"answer3": "Sessions vary from 30 to 120 minutes depending on the treatment and your needs. Full-body treatments like Thai Massage are most effective with longer sessions (90-120 minutes), whilst targeted treatments can be shorter. Check our Services page for current pricing and duration options for each treatment type.",
+		"question4": "How often should I book treatments?",
+		"answer4": "This depends on your individual needs and goals. For chronic pain or specific injuries, weekly sessions initially often provide the best results. For general wellness and stress management, fortnightly or monthly treatments work well. After your first session, I'll recommend a treatment plan based on your body's response and what you're trying to achieve.",
+		"question5": "Will the massage be painful?",
+		"answer5": "Therapeutic massage should never be unbearable. Thai massage and Deep Tissue work can be intense as I access deeper muscle layers, but I'll always work within your comfort level. I check in regularly during treatment and adjust pressure based on your feedback."
 	}
 }
