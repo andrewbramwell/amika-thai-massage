@@ -12,6 +12,7 @@ import massage4 from "@assets/images/massages/massage4.jpg";
 import massage5 from "@assets/images/massages/massage5.jpg";
 import massage6 from "@assets/images/massages/massage6.jpg";
 import massage7 from "@assets/images/massages/massage7.jpg";
+import massage8 from "@assets/images/massages/massage8.jpg";
 
 // Optimize images
 const optimizedMassage1 = await getImage({ src: massage1, format: 'webp', width: 305 });
@@ -28,6 +29,8 @@ const optimizedMassage6 = await getImage({ src: massage6, format: 'webp', width:
 const optimizedMassage6Mobile = await getImage({ src: massage6, format: 'webp', width: 600 });
 const optimizedMassage7 = await getImage({ src: massage7, format: 'webp', width: 305 });
 const optimizedMassage7Mobile = await getImage({ src: massage7, format: 'webp', width: 600 });
+const optimizedMassage8 = await getImage({ src: massage8, format: 'webp', width: 305 });
+const optimizedMassage8Mobile = await getImage({ src: massage8, format: 'webp', width: 600 });
 
 // Create services array - add as many as needed
 const services = [
@@ -107,6 +110,17 @@ const services = [
     price2: t("services:tiles.service7.price2"),
     price3: t("services:tiles.service7.price3"),
     price4: t("services:tiles.service7.price4")
+  },
+  {
+    name: t("services:tiles.service8.name"),
+    tagline: t("services:tiles.service8.tagline"),
+    imageDesktop: optimizedMassage8.src,
+    imageMobile: optimizedMassage8Mobile.src,
+    imageFallback: massage8.src,
+    price1: t("services:tiles.service8.price1"),
+    price2: t("services:tiles.service8.price2"),
+    price3: t("services:tiles.service8.price3"),
+    price4: t("services:tiles.service8.price4")
   }
 ].filter(service => service.name); // Filter out empty services
 ---

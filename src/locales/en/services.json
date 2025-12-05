@@ -63,6 +63,14 @@
       "price3": "120 min: £120",
       "price4": ""
     },
+    "service8": {
+      "name": "Thai Oil Massage",
+      "tagline": "A gentle variation of Traditional Thai Massage using aromatic therapeutic oils for fluid, flowing movements. Combines acupressure, stretching, and oil-gliding strokes to relax muscles and promote deep relaxation.",
+      "price1": "60 min: £50",
+      "price2": "90 min: £70",
+      "price3": "120 min: £90",
+      "price4": ""
+    },
     "cta": "Book Your Appointment"
   }
 }
