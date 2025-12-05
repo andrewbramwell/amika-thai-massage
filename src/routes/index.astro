@@ -32,6 +32,62 @@ const optimizedMobileLandingImage = await getOptimizedImage(mobileLandingImage);
 
 <WhyUs3 />
 
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-379">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Treatment Space</span>
+            <h2 class="cs-title">A Look Inside Amika Thai Massage & Wellness</h2>
+            <p class="cs-text">
+                Step into our professional home studio in Bedford. A dedicated, calm environment designed for your comfort and therapeutic care. Our treatment space meets all health and safety standards whilst providing the peaceful atmosphere you need to relax and heal.
+            </p>
+        </div>
+        <div class="cs-gallery">
+            <!--Picture 1-->
+             <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/gallery/gal1-m.webp">
+                <source media="(min-width: 601px)" srcset="/assets/images/gallery/gal1.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/gallery/gal1.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 2-->
+             <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/gallery/gal2-m.webp">
+                <source media="(min-width: 601px)" srcset="/assets/images/gallery/gal2.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/gallery/gal2.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/gallery/gal3-m.webp">
+                <source media="(min-width: 601px)" srcset="/assets/images/gallery/gal3.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/gallery/gal3.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 4-->
+             <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/gallery/gal4-m.webp">
+                <source media="(min-width: 601px)" srcset="/assets/images/gallery/gal4.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/gallery/gal4.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 5-->
+             <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/gallery/gal5-m.webp">
+                <source media="(min-width: 601px)" srcset="/assets/images/gallery/gal5.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/gallery/gal5.jpg" alt="gallery" width="305" height="400">
+            </picture>
+            <!--Picture 6-->
+             <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="/assets/images/gallery/gal6-m.webp">
+                <source media="(min-width: 601px)" srcset="/assets/images/gallery/gal6.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/gallery/gal6.jpg" alt="gallery" width="305" height="400">
+            </picture>
+        </div>
+    </div>
+</section>
+                                
+                                
+
 <FeaturedSingle />
 
 <Review2 />
@@ -46,5 +102,104 @@ const optimizedMobileLandingImage = await getOptimizedImage(mobileLandingImage);
 
 <style lang="less">
 	
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #gallery-379 {
+        padding: var(--sectionPadding);
+        padding-top: 0;
+        
+        .cs-container {
+            width: 100%;
+            max-width: (955/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+
+        .cs-gallery {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* 16px - 20px */
+            gap: clamp(1rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-image {
+            width: 46%;
+            /* 150px - 300px */
+            height: clamp(9.375rem, 39vw, 18.75rem);
+            max-width: (350/16rem);
+            /* clips the image corners */
+            overflow: hidden;
+            display: block;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes it act like a background image */
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #gallery-379 {
+        .cs-image {
+            width: 32.8%;
+            max-width: (305/16rem);
+            /* 300px - 400px */
+            height: clamp(18.75rem, 30vw, 25rem);
+            aspect-ratio: 1;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #gallery-379 {
+            .cs-topper {
+                color: var(--primaryLight);
+            }
+            .cs-title, .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+            .cs-text {
+                opacity: .8;
+            }
+        }
+    }
+}
+                                
+
+                                
 	
 </style>
