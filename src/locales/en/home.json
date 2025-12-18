@@ -1,25 +1,6 @@
 {
-	"_instructions": {
-	"prompt": "Fill this JSON homepage template using the provided client questionnaire. REQUIREMENTS: (1) Match the tone and positioning described in the questionnaire - extract their goals, values, and how they want to differentiate themselves. (2) Incorporate SEO keywords: [business name], [location], 'Thai massage', 'massage therapist', plus their specific treatment types. (3) Respect character limits per section. (4) Use specific details from questionnaire (years experience, qualifications, specialties, unique selling points, business goals). (5) Make content compelling and authentic to their brand vision. (6) If unclear about positioning, default to professional yet warm and welcoming tone.",
-    "character_limits": {
-      "hero.text": "150-200 chars",
-      "services.description": "150-200 chars",
-      "service[n].description": "100-120 chars",
-      "whyUs.description": "150-200 chars",
-      "whyUs.reason[n].description": "120-150 chars",
-      "about.paragraph[n]": "150-200 chars",
-      "reviews.review[n].text": "150-200 chars",
-      "faq.answer[n]": "200-250 chars"
-    },
-    "standard_ctas": {
-      "book_now": "/booking",
-      "view_services": "/services",
-      "learn_more": "/about",
-      "leave_review": "https://g.page/r/[GoogleBusinessID]/review"
-    }
-  },
 	"layout": {
-		"title": "Amika Thai Massage & Wellnes",
+		"title": "Massage Therapist",
 		"description": "Amika Thai Massage & Wellness Bedford. Professional therapeutic massage by VTCT certified Thai therapist Amy. Authentic techniques for pain relief & wellness."
 	},
 	"hero": {
