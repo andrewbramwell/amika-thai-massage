@@ -27,6 +27,13 @@
         "button": "Schedule Your Session",
         "imageAlt": "Massage oils and towels"
     },
+    "cookiePopup": {
+        "title": "This website uses cookies",
+        "text": "This website uses cookies. By using our website you consent to all cookies in accordance with our Cookie Policy.",
+        "readMore": "Read More",
+        "policyLink": "/privacy-policy",
+        "accept": "Accept"
+    },
     "footer": {
         "information": "Information",
         "services": "Services",
