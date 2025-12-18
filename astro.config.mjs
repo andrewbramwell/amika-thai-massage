@@ -22,7 +22,7 @@ const SITEMAP_I18N = MULTILINGUAL ? {
 } : undefined;
 
 export default defineConfig({
-  site: "https://amikathaimassage.co.uk/", // update me!
+  site: "https://amikathaimassage.co.uk", // update me!
   integrations: [
     icon(),
     i18n({
